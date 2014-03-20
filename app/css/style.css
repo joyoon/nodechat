@@ -1,0 +1,137 @@
+p {
+	margin: 1em 0;
+}
+
+ul {
+	padding: 0;
+}
+
+ul li {
+	list-style-type: none;
+	display: inline;
+}
+
+img {
+	float: left;
+	margin: 10px;
+}
+
+#rel {
+	position: relative;
+	height: 400px;
+	border: 1px;
+	border-style: solid;
+}
+
+#floater {
+	float: left;
+	height: 50%;
+	border: 1px;
+	border-style: solid;
+	position: relative;
+}
+
+#main {
+	position: relative;
+	min-height: 500px;
+	background-color: gray;
+	top: 20%;
+}
+
+div#header {
+	position: fixed;
+	z-index: 99;
+	bottom: 80%;
+}
+
+.main-contain {
+	position: absolute;
+	background: white;
+	border-width: 1px;
+	border-style: solid;
+	min-width: 500px;
+	min-height: 40em;
+	top: 20%;
+	right: 20%;
+	bottom: 20%;
+	left: 20%;
+}
+
+#chat-window {
+	position: absolute;
+	background: white;
+	border-width: 1px;
+	border-style: solid;
+	min-width: 200px;
+	min-height: 40em;
+	top: 20%;
+	right: 20%;
+	bottom: 20%;
+	left: 20%;
+}
+
+.chat-line {
+	position: relative;
+	margin: 2% 0 0 2%;
+}
+
+.chat-name {
+	position: relative;
+	top: 10%;
+}
+
+#chat-wrap {
+	position: absolute;
+	left: 3%;
+	top: -0.5%;
+	width: 100%;
+}
+
+.chat-message {
+	margin-left: 2%;
+	top: -0.5px;
+}
+
+#chat-window-frame {
+	border: 1px;
+	border-style: solid;
+	position: absolute;
+	width: 80%;
+	top: 10%;
+	right: 10%;
+	left: 10%;
+	bottom: 10%;
+}
+
+#page-one-frame {
+	position: absolute;
+	left: 50%;
+	right: 50%;
+	top: 50%;
+	bottom: 50%;
+	height: 2em;
+	width: 23em;
+	margin-left: -11.5em;
+}
+
+.input-chat {
+	width: 600px;
+	display: inline-block;
+}
+
+#chat-entry {
+	position: absolute;
+	bottom: 0;
+}
+
+#page {
+	border: 1px solid;
+	max-width: 90%;		/* approximate 960px */
+	min-height: 30em;
+	margin: 5% auto;
+}
+
+#content {
+	margin: 50% auto;
+	width: 31.25%; 	/* 300 / 960 = 0.3125 */
+}

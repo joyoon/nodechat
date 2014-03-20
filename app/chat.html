@@ -1,0 +1,18 @@
+<div class="main-contain" ng-controller="chatController">
+	<ul>
+		<li ng-repeat="message in model.messages">
+			<div class="chat-line">
+				<span class="chat-name">{{message.user.name}}:</span>
+				<div id="chat-wrap">
+					<span class="chat-message">{{message.message}}</span>
+				</div>
+			</div>
+		</li>
+	</ul>
+
+	<div id="chat-entry">
+		<input type="text" class="form-control input-chat" ng-model="model.curMessage" size="80">
+		<button type="button" class="btn btn-default" ng-click="createMessage(model.curMessage)">submit</button>
+	</div>
+
+</div>
