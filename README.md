@@ -1,4 +1,4 @@
 nodechat
 ========
 
-a node chat application.  built on bootstrap, angular, express, and mongodb.  features responsive/fluid design.
+a node chat application (spa).  built on bootstrap, angular, express, and mongodb.  features responsive/fluid design.
